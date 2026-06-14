@@ -76,6 +76,21 @@
             bindings = <&kp COLON>;
             key-positions = <20 17 18>;
         };
+
+        left_click {
+            bindings = <&mkp LCLK>;
+            key-positions = <7 16>;
+        };
+
+        right_click {
+            bindings = <&mkp RCLK>;
+            key-positions = <7 18>;
+        };
+
+        mouse_scroll {
+            bindings = <&msc MOVE_Y(5)>;
+            key-positions = <7 17>;
+        };
     };
 
     keymap {
